@@ -1,0 +1,24 @@
+# @DemoApp.Services.Customers.Api_HostAddress = http://demo.sming.com:8080/customer/
+# content-type: "application/json"
+
+# POST {{DemoApp.Services.Customers.Api_HostAddress}}/customer/
+
+# {
+#     "firstName": "Test"
+# }
+
+POST http://demo.sming.com:8080/customer HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "TestFirstName",
+    "surname": "TestSurname"
+}
+
+POST http://localhost:5245/customer HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "TestFirstName",
+    "surname": "TestSurname"
+}

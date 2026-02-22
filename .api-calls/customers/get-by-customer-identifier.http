@@ -1,0 +1,5 @@
+# @rootUrl = localhost:5245
+@rootUrl = demo.sming.com:8080
+@customerIdentifier = 62b39eef-e2e0-4c7f-3690-08de6b1ea216
+
+GET http://{{rootUrl}}/customer/{{customerIdentifier}} HTTP/1.1

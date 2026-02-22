@@ -1,1 +1,1 @@
-# demoapp-customers
+# demo-application

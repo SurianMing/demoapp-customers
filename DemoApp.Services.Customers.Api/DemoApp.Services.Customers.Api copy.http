@@ -1,0 +1,9 @@
+POST http://localhost:5245/customer HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "TestFirstName",
+    "surname": "TestSurname"
+}
+
+GET http://localhost:5245/customer/{id}

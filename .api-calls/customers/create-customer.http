@@ -1,0 +1,12 @@
+@rootUrl = localhost:5245
+# @rootUrl = demo.sming.com:8080
+@firstName = Matt
+@surname = Astill
+
+POST http://{{rootUrl}}/customer HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "{{firstName}}",
+    "surname": "{{surname}}"
+}
